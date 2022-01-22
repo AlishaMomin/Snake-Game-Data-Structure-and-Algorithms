@@ -78,11 +78,13 @@ A very basic flag/checker system is put up, which determines if the pos of snake
 This class is responsible for the generation of food, snake, finding the shortest path to the tail, head, and apple. In this class we have also used BFS algorithm to find the shortest path between food and the head of the snake. 
 def draw(self):
 	Basically, this function initially draw the apple and snake 
-	1. step1: give the color code to apple and head of the snake.
+	1. step1: give the color code to apple and head of the snake. 
+	
 	2. step2: for every i in self.squares [1:] it will draw the apple and snake.
 Def set_direction (self, direction):
 	Basically, this function will check the directions and will return the coordinates according to the given position. 
 	1. step1: it will check the position.
+	
 	2. step2: it will return the direction at a given coordinates.
 Def handle_events (self):
 	This function handles 2 events that is quit game and keyboard 
